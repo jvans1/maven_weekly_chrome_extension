@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "News Groups",
+  "description": "This extension will save links to be sent out weekly to a group of friends",
+  "version": "1.0",
+ 
+  "browser_action": {
+   "default_popup": "add.html"
+  },
+  "externally_connectable": {
+    "matches": ["http://localhost:8000/*"]
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+   ],
+  "content_security_policy": "script-src 'self' http://localhost:8000/; object-src 'self'"
+}
