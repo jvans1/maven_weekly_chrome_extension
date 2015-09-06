@@ -9,7 +9,7 @@
    "default_popup": "add.html"
   },
   "externally_connectable": {
-    "matches": ["http://localhost:8000/*"]
+    "matches": ["http://mavenweekly.com/*"]
   },
   "permissions": [
     "tabs",
