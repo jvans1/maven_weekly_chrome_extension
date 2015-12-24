@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Maven Weekly",
+  "description": "Use this extension to share links with friends in a weekly digest",
+  "version": "1.0.2",
+ 
+  "browser_action": {
+   "default_popup": "add.html"
+  },
+  "externally_connectable": {
+    "matches": ["http://mavenweekly.com/*", "http://localhost:8000/*"]
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+   ],
+  "content_security_policy": "script-src 'self' http://localhost:8000/; object-src 'self'"
+}
