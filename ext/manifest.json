@@ -9,11 +9,11 @@
    "default_popup": "add.html"
   },
   "externally_connectable": {
-    "matches": ["http://mavenweekly.com/*", "http://localhost:8000/*"]
+    "matches": ["http://mavenweekly.com/*"]
   },
   "permissions": [
     "tabs",
     "activeTab"
    ],
-  "content_security_policy": "script-src 'self' http://localhost:8000/; object-src 'self'"
+  "content_security_policy": "script-src 'self' http://localhost:3000/; object-src 'self'"
 }
